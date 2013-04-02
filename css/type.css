@@ -1,0 +1,38 @@
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 3em;
+	color: #333;
+}
+
+h2#other {
+	font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	color: #333;
+}
+
+p {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1em;
+	line-height: 32px;
+}
+
+p b {
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #858585;
+}
+
+a {
+	color: #DB380E;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

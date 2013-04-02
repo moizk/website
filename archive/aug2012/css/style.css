@@ -1,0 +1,288 @@
+/* reset.css */
+html {margin:0;padding:0;border:0;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1.5;background:white;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;float:none !important;}
+table, th, td {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+:focus {outline:0;}
+
+body, html {
+    width:100%;
+    background-color: white;
+}
+
+
+/*
+The first section.
+*/
+
+
+#first {
+    width: 100%;
+    /* height:500px; */
+    padding: 100px 0; 
+    background-color: #FF4444;
+}
+
+#one {
+    color: #222;
+    width: 500px;
+    font: 800 64px/64px "open sans";
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+
+}
+
+#subone {
+    color: #222;
+    width: 500px;
+    font: 800 20px/20px "open sans";
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;     
+}
+
+#contentone {
+    color: #222;
+    width: 490px;
+    margin:0 auto;
+    font-family: 'Arvo', serif;
+    font-size: .9em;
+    text-align: justify;
+    -moz-column-count: 2;
+    -moz-column-gap: 30px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 30px;
+}
+
+#signatureone {
+	color: #333;
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: right;
+    font-family: 'Arvo', serif;
+}
+
+
+
+/*
+Machiavelli Quote.
+*/
+
+
+#war {
+	width: 100%;
+	height: 300px;
+}
+
+
+
+#mach {
+	font-family: 'Vollkorn', serif;	
+	text-align: center;
+	padding-top: 115px;
+	font-size: 1.5em;
+	font-style: italic;
+	color: #333;
+}
+
+#sig {
+	color: #C90707;
+	font-style: normal;
+	font-size: .5em;
+	text-transform: uppercase;
+} 
+
+
+
+/*
+The section on Campusvine.
+*/
+
+#campusvine {
+	width: 100%;
+    height:850px;
+    padding: 100px 0; 
+    background-color: #99CC00;
+	
+	
+}
+
+#two {
+    color: #222;
+    width: 500px;
+    font: 800 64px/64px "open sans";
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+
+}
+
+.stan {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#contenttwo {
+    color: #222;
+    width: 450px;
+    margin:0 auto;
+    padding-top: 32px;
+    font-family: 'Arvo', serif;
+    font-size: .9em;
+    -moz-column-count: 2;
+    -moz-column-gap: 30px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 30px;
+
+}
+
+/*
+The footer area.
+*/
+
+
+#footer {
+	background-color:#00aced;
+	height: 300px;
+	width: 100%;
+}
+
+#footertext {
+	color: #383B3C;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .7em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+#footerheadline {
+	color: #eee;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+/* 	text-align: center; */
+	padding-top: 32px;
+	text-align: center;
+}
+
+#footerdiv {
+	float: left;
+	padding-left: 50px;
+}
+
+#footercontainer {
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#footerbigtext {
+	font: 800 64px/64px "open sans";
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222;
+    padding-top: 32px;     
+	
+}
+
+/*
+Some global elements.
+*/
+
+a:link {
+	color: #333;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:active {
+	color: #333;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #333;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #E5E7E7;
+}
+
+/*
+Social Icons.
+*/
+
+
+.soc {
+	background-color: #333;
+	width: 35px;
+	height: 35px;
+	border-radius: 3px;
+	color: #fff;
+	-webkit-transition: background-color .5s linear;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	margin-right: 2px;
+	margin-left: 2px;
+
+	
+}
+
+#copyright {
+	border-top: 8px #2A0400 solid;
+}
+
+.soc:hover {
+	background-color: #00aced;
+}
+
+#twit {
+	background-image: url("../img/twit.png");
+	
+}
+
+#face {
+	background-image: url("../img/face.png");
+	
+}
+
+#bulb {
+	background-image: url("../img/heuretix.png");
+	
+}
+
+#drib {
+	background-image: url("../img/drib.png");
+	
+}
+
+
+#tester {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+.name {
+	font-size: 50px;
+}
+
+
+
+

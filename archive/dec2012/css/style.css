@@ -1,0 +1,175 @@
+/* Global Styles */
+
+body {
+	background-color: black;
+
+}
+
+h1 {
+	font-family: 'BenchNine', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-size: 8em;
+	padding-top: 25px;
+}
+
+/* Navigation */
+
+.moiznavcontainer {
+	width: 100%;
+	height: 150px;
+	
+	background-color: white;
+}
+
+/* Navigation Logo */
+
+.moizlogo {
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.moizlogo img {
+	width: 80px;
+	height: 80px;
+	padding-left: 10px;
+	padding-top: 10px;
+	
+}
+
+
+
+/* Navigation Links */
+
+.moiznavinner {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.moiznavlist {
+	list-style: none;	
+	padding-top: 30px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.moiznavlist li {
+	text-transform: uppercase;
+	display: inline;
+	padding-right: 15px;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.moiznavlist li a {
+	color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+	-webkit-transition: color 1s ease-in-out; 
+	-webkit-transition: background-color 1s ease-in-out; 
+}
+
+.moiznavlist li a:hover {
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	
+}
+
+/* First Container */
+
+.hellobk {
+	height: 600px;
+	padding-top: 150px;
+}
+
+.hellobk h1 {
+	padding-top: 250px;
+}
+
+/* Work Section */
+
+.work {
+	background-color: white;
+	width: 100%;
+	height: auto;
+}
+
+.work h1 {
+	color: black;
+	padding-top: 250px;
+
+}
+
+.work p {
+	font-family: 'Arvo', serif;
+	font-weight: lighter;
+	font-size: 1.3em;
+	padding-top: 24px;
+	text-align: center;
+	padding-bottom: 50px;
+	
+}
+
+.middle {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.work img {
+	opacity: .5;
+	-webkit-transition: opacity 1s ease-in-out; 
+	
+}
+
+.work img:hover {
+	opacity: 1;
+}
+
+
+.thumbnails {
+	margin: 0 auto;
+}
+
+.work .map {
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+
+/* Contact Section */
+
+.contact {
+	height: 800px;
+}
+
+.contact h1 {
+	padding-top: 250px;
+}
+
+.contact img {
+	opacity: .5;
+	-webkit-transition: opacity 1s ease-in-out; 
+
+}
+
+.contact p {
+	font-family: 'Arvo', serif;
+	font-weight: lighter;
+	font-size: 1.3em;
+	padding-top: 24px;
+	color: white;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.contact img:hover {
+	opacity: 1;
+}
+
+

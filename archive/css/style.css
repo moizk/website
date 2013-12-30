@@ -1,0 +1,50 @@
+.topbar {
+	background-color: #E0615E;
+	height: 25px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container {
+	text-align: center;
+	width: 550px;
+	margin: 0 auto;
+}
+
+@media (max-width:  320px){
+	.container {
+		width: 320px;
+	}
+}
+
+
+.content {
+	padding: 0px 20px 30px 20px;
+	border-bottom: 1px dashed #333;
+}
+
+.circle {
+	border-radius: 500px;
+	margin-top: 50px;
+	width: 200px;
+	height: 200px;
+}
+
+.moiz {
+	opacity: .50;
+	-webkit-transition: opacity .5s ease-in-out;
+	   -moz-transition: opacity .5s ease-in-out;
+	        transition: opacity .5s ease-in-out;
+}
+
+.moiz:hover {
+	opacity: 1;
+}
+
+.thestory {
+	text-align: justify;
+}
+
+.footer {
+	padding: 0px 20px 30px 20px;
+}

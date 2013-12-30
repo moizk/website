@@ -1,50 +1,311 @@
-.topbar {
-	background-color: #E0615E;
-	height: 25px;
-	width: 100%;
-	margin: 0 auto;
+/* General Purpose Selectors*/
+
+h3 {
+  color: #111;
 }
 
-.container {
-	text-align: center;
-	width: 550px;
-	margin: 0 auto;
-}
-
-@media (max-width:  320px){
-	.container {
-		width: 320px;
-	}
+p {
+  font-family: 'PT Serif', Georgia, serif;
 }
 
 
-.content {
-	padding: 0px 20px 30px 20px;
-	border-bottom: 1px dashed #333;
+/* Header Section */
+div.header {
+  text-align: center;
+  padding-top: 25px;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-.circle {
-	border-radius: 500px;
-	margin-top: 50px;
-	width: 200px;
-	height: 200px;
+div.header h3 {
+  /* Positioning */
+  /* Box-model */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* Typography */
+  font-family: "proxima-nova-extra-condensed", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  /* Visual */
+  color: #111;
+  /* Misc */
 }
 
-.moiz {
-	opacity: .50;
-	-webkit-transition: opacity .5s ease-in-out;
-	   -moz-transition: opacity .5s ease-in-out;
-	        transition: opacity .5s ease-in-out;
+div.header h5 {
+  /* Positioning */
+  /* Box-model */
+  margin-top: 5px;
+  /* Typography */
+  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  /* Visual */
+  color: #444;
+  /* Misc */
 }
 
-.moiz:hover {
-	opacity: 1;
+div.header h4 {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
+  font-size: 100px;
+  /* Visual */
+  /* Misc */
 }
 
-.thestory {
-	text-align: justify;
+/* About Section */
+
+div.about-section {
+  text-align: center;
 }
 
-.footer {
-	padding: 0px 20px 30px 20px;
+@media screen and (max-width: 320px) {
+  div.about-section {
+    padding: 0 15px;
+  }
+}
+
+div.about-section h3 {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
+  font-size: 70px;
+  /* Visual */
+  /* Misc */
+}
+
+div.about-section p {
+  /* Positioning */
+  /* Box-model */
+  margin: 0 auto;
+  max-width: 410px;
+  /* Typography */
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: left;
+  /* Visual */
+  color: #111;
+  /* Misc */
+}
+
+div.about-section p a {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  font-weight: 700;
+  text-decoration: none;
+  /* Visual */
+  color: #111;
+  /* Misc */
+  -webkit-transition: color 300ms ease-in-out;
+     -moz-transition: color 300ms ease-in-out;
+          transition: color 300ms ease-in-out;
+
+}
+
+div.about-section p a:hover {
+  color: #268bd2;
+}
+
+/* Work Section */
+
+div.work-section {
+  text-align: center;
+}
+
+div.work-section h3 {
+  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
+  font-size: 70px;
+}
+
+div.work-section-screenshot-area {
+  /* Positioning */
+  /* Box-model */
+  padding-top: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  /* Typography */
+  /* Visual */
+  background-color: #f2f2f2;
+  /* Misc */
+}
+
+div.work-section-screenshot-area img {
+  position: relative;
+top: 4px;
+}
+
+div.work-section-details h3 {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  font-size: 45px;
+  /* Visual */
+  /* Misc */
+}
+
+div.work-section-details h4 {
+  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #333;
+}
+
+div.work-section-details p {
+  /* Positioning */
+  /* Box-model */
+  margin: 0 auto 20px auto;
+  max-width: 390px;
+  /* Typography */
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: left;
+  /* Visual */
+  color: #111;
+  /* Misc */
+}
+
+@media screen and (max-width: 320px) {
+  div.work-section-details p {
+    padding: 0 15px;
+  }
+}
+
+div.work-section-details p#short-explanation {
+  max-width: 100%;
+  text-align: center;
+}
+
+div.work-section-details p a {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  font-weight: 700;
+  text-decoration: none;
+  /* Visual */
+  color: #111;
+  /* Misc */
+  -webkit-transition: color 300ms ease-in-out;
+     -moz-transition: color 300ms ease-in-out;
+          transition: color 300ms ease-in-out;
+
+}
+
+div.work-section-details p a:hover {
+  color: #268bd2;
+}
+
+
+/* Contact Section */
+
+div.contact-section {
+  /* Positioning */
+  /* Box-model */
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  /* Typography */
+  text-align: center;
+  /* Visual */
+  background-color: #111;
+  /* Misc */
+}
+
+div.contact-section h2 {
+  /* Positioning */
+  /* Box-model */
+  margin-bottom: 0;
+  /* Typography */
+  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
+  font-size: 70px;
+  /* Visual */
+  color: #fff;
+  /* Misc */
+}
+
+div.contact-section img {
+  margin-top: 15px;
+}
+
+div.contact-section p {
+  /* Positioning */
+  /* Box-model */
+  margin: 0 auto;
+  max-width: 400px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  /* Typography */
+  font-family: 'PT Serif', Georgia, serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  /* Visual */
+  color: #fff;
+  /* Misc */
+}
+
+div.contact-section p a {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  font-weight: 700;
+  text-decoration: none;
+  /* Visual */
+  color: #fff;
+  /* Misc */
+  -webkit-transition: color 300ms ease-in-out;
+     -moz-transition: color 300ms ease-in-out;
+          transition: color 300ms ease-in-out;
+
+}
+
+div.contact-section p a:hover {
+  color: #f1e577;
+}
+
+
+
+/* Some Helper Classes */
+
+a.btn-visit {
+  /* Positioning */
+  /* Box-model */
+  margin-top: 20px;
+  padding: 15px;
+  /* Typography */
+  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  /* Visual */
+  border: 1px solid #333;
+  color: #333;
+  /* Misc */
+  -webkit-transition: all 400ms ease-in-out;
+     -moz-transition: all 400ms ease-in-out;
+          transition: all 400ms ease-in-out;
+
+}
+
+a.btn-visit:hover {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  /* Visual */
+  background-color: #f44a56;
+  border-color: #f44a56;
+  color: #fff;
+  /* Misc */
+}
+
+.img-responsive {
+  height: auto;
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
 }

@@ -80,7 +80,7 @@ div.about-section h3 {
 div.about-section p {
   /* Positioning */
   /* Box-model */
-  margin: 0 auto;
+  margin: 0 auto 45px auto;
   max-width: 410px;
   /* Typography */
   line-height: 1.5;

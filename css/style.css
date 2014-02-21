@@ -37,69 +37,12 @@ div.header h5 {
   /* Box-model */
   margin-top: 5px;
   /* Typography */
-  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
+  font-family: "proxima-nova", Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   /* Visual */
   color: #444;
   /* Misc */
-}
-
-div.header h4 {
-  /* Positioning */
-  /* Box-model */
-  /* Typography */
-  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
-  font-size: 100px;
-  /* Visual */
-  /* Misc */
-}
-
-@-webkit-keyframes pulse {
-  25% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-  75% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-}
-
-@keyframes pulse {
-  25% {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-  75% {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-}
-
-.pulse {
-  display: inline-block;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-
-.pulse:hover {
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  cursor: pointer;
 }
 
 /* About Section */
@@ -118,8 +61,8 @@ div.about-section h3 {
   /* Positioning */
   /* Box-model */
   /* Typography */
-  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
-  font-size: 70px;
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  font-size: 60px;
   /* Visual */
   /* Misc */
 }
@@ -127,7 +70,7 @@ div.about-section h3 {
 div.about-section p {
   /* Positioning */
   /* Box-model */
-  margin: 0 auto 45px auto;
+  margin: 0 auto 80px auto;
   max-width: 410px;
   /* Typography */
   line-height: 1.5;
@@ -154,7 +97,7 @@ div.about-section p a {
 }
 
 div.about-section p a:hover {
-  color: #268bd2;
+  color: #FE5801;
 }
 
 /* Work Section */
@@ -164,8 +107,8 @@ div.work-section {
 }
 
 div.work-section h3 {
-  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
-  font-size: 70px;
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  font-size: 60px;
 }
 
 div.work-section-screenshot-area {
@@ -182,7 +125,13 @@ div.work-section-screenshot-area {
 
 div.work-section-screenshot-area img {
   position: relative;
-top: 4px;
+  top: 4px;
+}
+
+div.work-section-details:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 div.work-section-details h3 {
@@ -195,7 +144,7 @@ div.work-section-details h3 {
 }
 
 div.work-section-details h4 {
-  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
+  font-family: "proxima-nova", Helvetica, sans-serif;
   text-transform: uppercase;
   color: #333;
 }
@@ -241,7 +190,7 @@ div.work-section-details p a {
 }
 
 div.work-section-details p a:hover {
-  color: #268bd2;
+  color: #FE5801;
 }
 
 
@@ -265,8 +214,8 @@ div.contact-section h2 {
   /* Box-model */
   margin-bottom: 0;
   /* Typography */
-  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
-  font-size: 70px;
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  font-size: 60px;
   /* Visual */
   color: #fff;
   /* Misc */
@@ -323,13 +272,15 @@ a.btn-visit {
   margin-top: 20px;
   padding: 15px;
   /* Typography */
-  font-family: "proxima-nova-condensed", Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .5px;
   /* Visual */
-  border: 1px solid #333;
-  color: #333;
+  background-color: #333;
+  color: #fff;
   /* Misc */
   -webkit-transition: all 400ms ease-in-out;
      -moz-transition: all 400ms ease-in-out;
@@ -347,6 +298,7 @@ a.btn-visit:hover {
   color: #fff;
   /* Misc */
 }
+
 
 .img-responsive {
   height: auto;

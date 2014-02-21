@@ -12,3 +12,5 @@ archive/.DS_Store
 archive/dec2012/.DS_Store
 
 .DS_Store
+
+_site/
